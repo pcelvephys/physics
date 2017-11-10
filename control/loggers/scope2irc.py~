@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+from sys import argv
+nick = argv[1]
+
+import LeCroy
+import irc
+
+connection = irc.irc("

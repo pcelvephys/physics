@@ -1,0 +1,7 @@
+#!/usr/bin/python
+import loginspect
+lines = loginspect.extractlines("Ramp", "2017-05-22 00:00:00", logpath="/media/optomech/logs/Optomech/")
+datetimes = map(loginspect.datetimefromircline, lines)
+def getFilenameAndPower(line):
+    filename, power = line.split("Recorded filename: ")[1].split('at power')
+    return filename.strip(), power.strip()

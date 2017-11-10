@@ -1,0 +1,89 @@
+Tony.Minchell@teledynelecroy.com (Yest. 22:50) (inbox)
+Subject: Re: Teledyne LeCroy Technical Support Request - Web - United Kingdom, Swansea University, James Bateman
+To: j.e.bateman@swansea.ac.uk
+Cc: applications.uk@lecroy.com, Guido.Wolf@LeCroy.com
+Date: Tue, 31 May 2016 22:50:41 +0100
+
+[ multipart/related ]
+[ text/html ]
+
+Hi,
+
+My first thought is to which version of firmware you are using? It
+should be 7.9.1.3, if not then upgrade it by downloading it to a
+memory stick and upgrading it. Get it here
+http://teledynelecroy.com/support/softwaredownload/documents.aspx?sc=12
+
+If this doesn't solve the problem then please email me again.
+
+Best Regards,
+TONY MINCHELL
+Application Engineer
+SA Team
+
+*
+
+YouTube#Blog#Software#Facebook#Linkedin#Twitter
+
+Teledyne Ltd
+9-13 Napier Road
+Cumbernauld, Glasgow G68 0EF
+United Kingdom 
+Mobile: +44(0)7810 447569
+Skype: tony.minchellatlecroy.com
+E-mail: tony.minchell@teledynelecroy.com
+E-mail Application: applications.uk@teledynelecroy.com
+Internet: teledynelecroy.com/europe
+
+Inactive hide details for ---31-05-2016 03:28:24 PM---A new Website Technical Support Request has been entered for:   Scopes an
+---31-05-2016 03:28:24 PM---A new Website Technical Support Request
+has been entered for: Scopes and Accessories, Oscilloscope
+
+From: <webmaster@teledynelecroy.com>
+To: <applications.uk@lecroy.com>, <Guido.Wolf@LeCroy.com>, 
+Date: 31-05-16 03:28 PM
+Subject: Teledyne LeCroy Technical Support Request - Web - United
+Kingdom, Swansea University, James Bateman
+
+----------------------------------------------------------------------
+
+A new Website Technical Support Request has been entered for: 
+
+Scopes and Accessories, Oscilloscopes category
+
+A question was asked regarding:WaveSurfer 3000 Oscilloscopes
+
+WaveSurfer 3024
+
+Customer has requested to be contacted regarding the following
+message: 
+*IDN? returns LECROY,WS3024,LCRY3703N15293,7.9.0
+
+When communicating over TCPIP, the scope returns "WARNING : CURRENT
+REMOTE CONTROL INTERFACE IS TCPIP" and refuses to execute commands or
+answer queries; only *IDN? works.
+
+Have tried changing setting to USBTMC and OFF; scope still refuses to
+do as it''s told.
+
+Please advise. Many thanks.
+
+Technical Support Request Confirmation Number: 1862986
+Client: James Bateman
+Company: Swansea University
+Address: Department of Physics Swansea University
+City: Swansea
+Zip: SA2 8PP
+Country: United Kingdom
+Phone: +44(0)1792 295115
+E-Mail: mailto:j.e.bateman@swansea.ac.uk
+
+[ 1A693703.jpg: image/jpeg (hidden) ]
+[ 1A657072.gif: image/gif (hidden) ]
+[ 1A590663.gif: image/gif (hidden) ]
+[ 1A723604.gif: image/gif (hidden) ]
+[ 1A751545.gif: image/gif (hidden) ]
+[ 1A540482.gif: image/gif (hidden) ]
+[ 1A608975.gif: image/gif (hidden) ]
+[ 1A028384.gif: image/gif (hidden) ]
+[ graycol.gif: image/gif (hidden) ]

@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>EDFA Control Panel</title>
+  </head>
+  <body>
+
+    <div style="display: inline-block; width: 300px; height: 300px; margin: 1em">
+      <form method="POST">
+	<input name="SMODE" value="OFF" type="HIDDEN"/>
+	<input type="image" alt="OFF" src="off.jpg"/>
+      </form>
+    </div>
+
+    <div style="display: inline-block; width: 500px; height: 300px; margin: 1em">
+
+      In: {PDinmW} mW == {PDindBm} dBm <br/>
+      Out: {PDoutmW} mW == {PDoutdBm} dBm <br/>
+      
+      <form method="POST">
+	<button>Power Control</button>
+	<input name="SPCmW" value="{RPCmW}" />mW
+	<input name="SMODE" value="PC" type="HIDDEN"/>
+      </form>
+      
+      <form method="POST">
+	<button>Current Control</button>
+	<input name="SCC" value="{RCC}" />mA
+	<input name="SMODE" value="CC" type="HIDDEN"/>
+      </form>
+    </div>
+    
+  </body>
+</html>

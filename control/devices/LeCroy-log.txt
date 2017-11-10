@@ -1,0 +1,72 @@
+In [1]: import LeCroy
+
+In [2]: scope = LeCroy.WS3024()
+
+In [3]: data = scope.data()
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+<ipython-input-3-e668671ea118> in <module>()
+----> 1 data = scope.data()
+
+/home/lab/server/control/devices/LeCroy.py in data(self, channel)
+     26 
+     27         def data(self, channel=1):
+---> 28                 raw = self.raw(channel) # Grab waveform from scope
+     29                 return InterpretWaveform(raw)
+     30 
+
+/home/lab/server/control/devices/LeCroy.py in raw(self, channel)
+     20 
+     21         def raw(self, channel=1):
+---> 22                 self.waitOPC()
+     23                 self.write('COMM_FORMAT DEF9,WORD,BIN')
+     24                 self.write('C%u:WAVEFORM?' % channel)
+
+/home/lab/server/control/devices/LeCroy.py in waitOPC(self)
+     33                 self.write('WAIT')
+     34                 while not self.opc():
+---> 35                         sleep(1)
+     36 
+     37         def opc(self):
+
+KeyboardInterrupt: 
+
+In [4]: scope.write('STOP')
+
+In [5]: scope.ask('*IDN?')
+Out[5]: u'LECROY,WS3024,LCRY3703N15293,7.9.0'
+
+In [6]: scope.write(':STOP')
+
+In [7]: scope.write('STOP')
+
+In [8]: scope.ask('*IDN?')
+Out[8]: u'LECROY,WS3024,LCRY3703N15293,7.9.0'
+
+In [9]: scope.ask('trig_mode?')
+Out[9]: u'WARNING : CURRENT REMOTE CONTROL INTERFACE IS TCPIP'
+
+In [10]: scope.ask('trig_mode?')
+Out[10]: u'WARNING : CURRENT REMOTE CONTROL INTERFACE IS TCPIP'
+
+In [11]: scope.ask('trig_mode?')
+Out[11]: u'WARNING : CURRENT REMOTE CONTROL INTERFACE IS USBTMC'
+
+In [12]: scope.ask('trig_mode?')
+Out[12]: u'WARNING : CURRENT REMOTE CONTROL INTERFACE IS TCPIP'
+
+In [13]: scope.ask('trig_mode?')
+Out[13]: u'WARNING : CURRENT REMOTE CONTROL INTERFACE IS OFF'
+
+In [14]: scope.ask('trig_mode?')
+Out[14]: u'WARNING : CURRENT REMOTE CONTROL INTERFACE IS OFF'
+
+In [15]: scope.write('*RST')
+
+In [16]: scope.ask('trig_mode?')
+Out[16]: u'WARNING : CURRENT REMOTE CONTROL INTERFACE IS TCPIP'
+
+In [17]: scope.ask('*IDN?')
+Out[17]: u'LECROY,WS3024,LCRY3703N15293,7.9.0'
+
+In [18]: 
